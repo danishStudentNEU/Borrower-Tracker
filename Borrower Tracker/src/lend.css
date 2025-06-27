@@ -1,0 +1,30 @@
+.lend-list h2 {
+  margin-bottom: 1rem;
+}
+
+.lend-list li {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
+  border-radius: 4px;
+}
+
+.lend-list li.returned {
+  background-color: #eef9ee;
+  border-left: 5px solid green;
+}
+
+.lend-actions button {
+  margin-right: 0.4rem;
+}
+
+.overdue-label {
+  background-color: #ff4136;
+  color: white;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  margin-left: 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
